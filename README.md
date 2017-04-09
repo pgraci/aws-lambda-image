@@ -9,6 +9,11 @@
 An AWS Lambda Function to resize/reduce images automatically. When an image is
 put on AWS S3 bucket, this package will resize/reduce it and put to S3.
 
+## NOTE
+
+- this is a fork of https://github.com/ysugimoto/aws-lambda-image
+- the only change made is to use baseline jpg encoding instead of progressive encoding
+
 ## Requirements
 
 - `node.js` ( AWS Lambda working version is **4.3.2** )
